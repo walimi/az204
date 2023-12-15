@@ -1,12 +1,16 @@
 using Microsoft.Azure.Cosmos;
 
+
+// use the link below for an explanation of what ths code is doing:
+// https://learn.microsoft.com/en-us/training/modules/work-with-cosmos-db/3-exercise-work-cosmos-db-dotnet
+
 public class Program
 {
     // Replace <documentEndpoint> with the information created earlier
-    private static readonly string EndpointUri = "https://az204walimirenewal.documents.azure.com:443/";
+    private static readonly string EndpointUri = "<proivde your endpoint uri>";
 
     // Set variable to the Primary Key from earlier.
-    private static readonly string PrimaryKey = "lSiPLGzSy9dA3wdsOFgdmEFDZQRULKwoWRvhDh3WVJLfLBGyAqCMFjv0Hnk4TAjB5Rc03yX5lXIlACDboBpowA==";
+    private static readonly string PrimaryKey = "<provide the key>";
 
     // The Cosmos client instance
     private CosmosClient cosmosClient;
